@@ -4,7 +4,7 @@ import axios from 'axios';
 class GetRequestErrorHandling extends React.Component {
     constructor(props) {
         super(props);
-        this.state = { totalReactPackages: null, errorMessage: null }
+        this.state = { totalReactPackages: null, errorMessage: null };
     }
     componentDidMount() {
         axios.get('https://api.npms.io/v2/invalid-url')
