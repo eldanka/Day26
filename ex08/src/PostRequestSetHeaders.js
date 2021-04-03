@@ -7,7 +7,7 @@ class PostRequestSetHeaders extends React.Component {
         this.state = { articleId: null };
     }
     componentDidMount() {
-        const article = { title: 'React Post Request Example' };
+        const article = { title: 'React POST Request Example' };
         const headers = {
             'Content-Type': 'application/json',
             'Authorization': 'Bearer my-token',
